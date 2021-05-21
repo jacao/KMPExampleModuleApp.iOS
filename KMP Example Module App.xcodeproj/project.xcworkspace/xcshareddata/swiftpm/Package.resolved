@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "KMPExampleModulePackage",
+        "repositoryURL": "https://github.com/jacao/UDependencyManager",
+        "state": {
+          "branch": null,
+          "revision": "2460f4a03a57c331de94d086c8332847454d1d0f",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
