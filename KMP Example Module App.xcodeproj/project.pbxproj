@@ -13,7 +13,7 @@
 		E23937502653AFE2004CBF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E239374F2653AFE2004CBF23 /* Preview Assets.xcassets */; };
 		E239375B2653AFE3004CBF23 /* KMP_Example_Module_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239375A2653AFE3004CBF23 /* KMP_Example_Module_AppTests.swift */; };
 		E23937662653AFE3004CBF23 /* KMP_Example_Module_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23937652653AFE3004CBF23 /* KMP_Example_Module_AppUITests.swift */; };
-		E282E58E2657CF6B0042050C /* KMPExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = E282E58D2657CF6B0042050C /* KMPExampleModule */; };
+		E282E5932657D4F30042050C /* KMPExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = E282E5922657D4F30042050C /* KMPExampleModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,7 @@
 		E23937612653AFE3004CBF23 /* KMP Example Module AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMP Example Module AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23937652653AFE3004CBF23 /* KMP_Example_Module_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMP_Example_Module_AppUITests.swift; sourceTree = "<group>"; };
 		E23937672653AFE3004CBF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E282E58C2657CF5B0042050C /* KMPExampleModulePackage */ = {isa = PBXFileReference; lastKnownFileType = folder; name = KMPExampleModulePackage; path = ../../KMPExampleModulePackage; sourceTree = "<group>"; };
+		E282E58F2657D29E0042050C /* KMPExampleModulePackage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = KMPExampleModulePackage; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E282E58E2657CF6B0042050C /* KMPExampleModule in Frameworks */,
+				E282E5932657D4F30042050C /* KMPExampleModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		E239373C2653AFE0004CBF23 = {
 			isa = PBXGroup;
 			children = (
-				E282E58C2657CF5B0042050C /* KMPExampleModulePackage */,
+				E282E58F2657D29E0042050C /* KMPExampleModulePackage */,
 				E23937472653AFE0004CBF23 /* KMP Example Module App */,
 				E23937592653AFE3004CBF23 /* KMP Example Module AppTests */,
 				E23937642653AFE3004CBF23 /* KMP Example Module AppUITests */,
@@ -159,7 +159,7 @@
 			);
 			name = "KMP Example Module App";
 			packageProductDependencies = (
-				E282E58D2657CF6B0042050C /* KMPExampleModule */,
+				E282E5922657D4F30042050C /* KMPExampleModule */,
 			);
 			productName = "KMP Example Module App";
 			productReference = E23937452653AFE0004CBF23 /* KMP Example Module App.app */;
@@ -593,7 +593,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E282E58D2657CF6B0042050C /* KMPExampleModule */ = {
+		E282E5922657D4F30042050C /* KMPExampleModule */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = KMPExampleModule;
 		};
