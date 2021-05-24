@@ -7,10 +7,11 @@
 
 import SwiftUI
 import KMPExampleModule
+import HeaderTestModule
 
 struct ContentView: View {
     var body: some View {
-        Text(Greeting().greeting())
+        Text(Greeting().greeting() + " " + HeaderBuilder().getHeader())
             .padding()
     }
 }

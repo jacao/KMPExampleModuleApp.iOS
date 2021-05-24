@@ -13,7 +13,8 @@
 		E23937502653AFE2004CBF23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E239374F2653AFE2004CBF23 /* Preview Assets.xcassets */; };
 		E239375B2653AFE3004CBF23 /* KMP_Example_Module_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E239375A2653AFE3004CBF23 /* KMP_Example_Module_AppTests.swift */; };
 		E23937662653AFE3004CBF23 /* KMP_Example_Module_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23937652653AFE3004CBF23 /* KMP_Example_Module_AppUITests.swift */; };
-		E282E5A32657E50F0042050C /* KMPExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = E282E5A22657E50F0042050C /* KMPExampleModule */; };
+		E26A803D265BD9C00090958B /* HeaderTestModule in Frameworks */ = {isa = PBXBuildFile; productRef = E26A803C265BD9C00090958B /* HeaderTestModule */; };
+		E26A803F265BD9C00090958B /* KMPExampleModule in Frameworks */ = {isa = PBXBuildFile; productRef = E26A803E265BD9C00090958B /* KMPExampleModule */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E282E5A32657E50F0042050C /* KMPExampleModule in Frameworks */,
+				E26A803F265BD9C00090958B /* KMPExampleModule in Frameworks */,
+				E26A803D265BD9C00090958B /* HeaderTestModule in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +159,8 @@
 			);
 			name = "KMP Example Module App";
 			packageProductDependencies = (
-				E282E5A22657E50F0042050C /* KMPExampleModule */,
+				E26A803C265BD9C00090958B /* HeaderTestModule */,
+				E26A803E265BD9C00090958B /* KMPExampleModule */,
 			);
 			productName = "KMP Example Module App";
 			productReference = E23937452653AFE0004CBF23 /* KMP Example Module App.app */;
@@ -231,7 +234,7 @@
 			);
 			mainGroup = E239373C2653AFE0004CBF23;
 			packageReferences = (
-				E282E5A12657E50F0042050C /* XCRemoteSwiftPackageReference "UDependencyManager" */,
+				E26A803B265BD9C00090958B /* XCRemoteSwiftPackageReference "UDependencyManager" */,
 			);
 			productRefGroup = E23937462653AFE0004CBF23 /* Products */;
 			projectDirPath = "";
@@ -592,20 +595,25 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E282E5A12657E50F0042050C /* XCRemoteSwiftPackageReference "UDependencyManager" */ = {
+		E26A803B265BD9C00090958B /* XCRemoteSwiftPackageReference "UDependencyManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/jacao/UDependencyManager";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
+				minimumVersion = 1.0.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E282E5A22657E50F0042050C /* KMPExampleModule */ = {
+		E26A803C265BD9C00090958B /* HeaderTestModule */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E282E5A12657E50F0042050C /* XCRemoteSwiftPackageReference "UDependencyManager" */;
+			package = E26A803B265BD9C00090958B /* XCRemoteSwiftPackageReference "UDependencyManager" */;
+			productName = HeaderTestModule;
+		};
+		E26A803E265BD9C00090958B /* KMPExampleModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E26A803B265BD9C00090958B /* XCRemoteSwiftPackageReference "UDependencyManager" */;
 			productName = KMPExampleModule;
 		};
 /* End XCSwiftPackageProductDependency section */
